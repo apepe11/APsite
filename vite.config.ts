@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/APsite/',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
